@@ -1,0 +1,65 @@
+@font-face {
+    src: url("../fonts/Cafe24Ohsquare/Cafe24Ohsquare.ttf");
+    font-family: "Cafe24Ohsquare";
+}
+
+@font-face {
+    src: url("../fonts/Merriweather-Bold.ttf");
+    font-family: "Merriweather";
+}
+
+@font-face {
+    src: url("../fonts/BlackHanSans-Regular.ttf");
+    font-family: "BlackHanSans";
+}
+
+
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    -webkit-user-select: none;
+}
+
+div {
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+
+    -webkit-user-drag: none;
+}
+
+body {
+    font-family: "Cafe24Ohsquare", "SpoqaHanSans";
+    padding-top: 116px;
+    width: 100%;
+}
+
+html {
+    width: 100%;
+    min-width: 375px;
+}
+
+
+::-webkit-scrollbar { display: none; }
+
+a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+
+
+
+

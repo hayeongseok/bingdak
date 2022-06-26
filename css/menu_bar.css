@@ -1,0 +1,121 @@
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 99999;
+    border: 1px rgb(238, 238, 238) solid;
+}
+
+
+
+/* nav */
+#nav {
+    width: 100%;
+}
+
+#nav .nav_inner {
+    display: flex;
+
+    width: 1400px;
+    margin: 39.7px auto 32px auto;
+}
+
+#nav .nav_inner .logo {
+    width: 156px;
+    height: 15px;
+}
+
+#nav .nav_inner .logo img {
+    width: 156px;
+    height: 55px;
+    padding-top: 10px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+#nav .nav_inner .menu .menu_inner {
+    width: 100%;
+    margin: 26.3px 295px 0 81px;
+}
+
+
+#nav .nav_inner .menu .menu_inner .menu_text{
+    display: flex;
+}
+
+
+#nav .nav_inner .menu .menu_inner .menu_text .dot {
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #171a1b;
+    opacity: 0.69;
+    margin-right: 64px;
+    cursor: pointer;
+}
+
+#nav .nav_inner .menu .menu_inner .menu_text .dot:hover,
+#nav .nav_inner .menu .menu_inner .menu_text .dot.active {
+    color: #171a1b;
+    opacity: 1;
+}
+
+
+#nav .nav_inner .social .social_inner{
+    display: flex;
+    margin-top: 19.3px;
+}
+
+#nav .nav_inner .social .social_inner .counseling {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 8px 11px 5px 13px;
+    border-radius: 14px;
+    background-color: #006cba;
+    vertical-align: bottom;
+    /* 마우스 손가락 버튼 활성화 */
+    cursor:pointer;
+}
+
+#nav .nav_inner .social .social_inner .counseling:hover{
+    font-family: Cafe24Ohsquare;
+    font-size: 15px;
+    background-color: #135e95;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+#nav .nav_inner .social .social_inner .facebook {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+#nav .nav_inner .social .social_inner .instagram .instagram_small_logo {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    padding: 4px 0 1px 10px;
+    cursor:pointer;
+}
+
+#nav .nav_inner .social .social_inner .facebook .facebook_small_logo {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    padding: 4px 0 1px 4px;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    #nav .nav_inner .menu .menu_inner {
+        display: flex;
+    }
+}

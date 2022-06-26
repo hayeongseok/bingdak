@@ -1,0 +1,113 @@
+
+/* 메뉴 소개 */
+#menu_introduction.section {
+    display: grid;
+    grid-template-rows: 423px 1fr 249px;
+    width: 100%;
+    margin: auto;
+}
+
+#menu_introduction .bingdak_text,
+#menu_introduction .lollipop_text {
+    text-align: center;
+}
+
+#menu_introduction .lollipop_text {
+  padding-top: 130px;
+}
+
+#menu_introduction .bingdak_text .bingdak_title {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  font-size: 48px;
+  line-height: 1.17;
+  color: #171a1b;
+}
+
+#menu_introduction .bingdak_text .bingdak_head,
+#menu_introduction .lollipop_text .lollipop_head {
+  width: 198px;
+  height: 24px;
+  margin: 80px 221px 12px;
+  font-family: Cafe24Ohsquare;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  color: #191919;
+}
+
+
+#menu_introduction .bingdak_text .bingdak_subhead,
+#menu_introduction .lollipop_text .lollipop_subhead {
+  height: 29px;
+  margin: 12px 188px 5px 189px;
+  opacity: 0.77;
+  font-family: SpoqaHanSans;
+  font-size: 20px;
+  
+  line-height: 1.45;
+  letter-spacing: -1px;
+  color: #191919;
+}
+
+#menu_introduction .bingdak_text .bingdak_body,
+#menu_introduction .lollipop_text .lollipop_body {
+    opacity: 0.36;
+    font-family: SpoqaHanSans;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.98px;
+    color: #8d8a8a;
+}
+
+#menu_introduction .bingdak_img,
+#menu_introduction .lollipop_img {
+    margin: auto;
+
+}
+
+#menu_introduction .bingdak_img .bingdak_img_inner .salty_soy_sauce_flavor,
+#menu_introduction .bingdak_img .bingdak_img_inner .corn_seasoning_taste,
+#menu_introduction .bingdak_img .bingdak_img_inner .original_flavor,
+#menu_introduction .bingdak_img .bingdak_img_inner .spicy_flavor,
+#menu_introduction .lollipop_img .lollipop_img_inner .drumstick,
+#menu_introduction .lollipop_img .lollipop_img_inner .lollipop {
+  width: 329px;
+  height: 422px;
+  object-fit: contain;
+  margin-right : 28px ;
+}
+/* 
+#menu_introduction .bingdak_img .bingdak_img_inner .spicy_seasoning {
+    width: 329px;
+    height: 422px;
+    object-fit: contain;
+} */
+
+#menu_introduction .bingdak_img .bingdak_img_inner .salty_soy_sauce_flavor:hover,
+#menu_introduction .bingdak_img .bingdak_img_inner .corn_seasoning_taste:hover,
+#menu_introduction .bingdak_img .bingdak_img_inner .original_flavor:hover,
+#menu_introduction .bingdak_img .bingdak_img_inner .spicy_flavor:hover,
+#menu_introduction .lollipop_img .lollipop_img_inner .drumstick:hover,
+#menu_introduction .lollipop_img .lollipop_img_inner .lollipop:hover {
+  box-shadow: 0 3px 30px 0 #cfcccc;
+}
+
+
+@media screen and (max-width: 1400px) {
+    #menu_introduction .menu_img .menu_img_inner .salty_soy_sauce_flavor,
+    #menu_introduction .menu_img .menu_img_inner .corn_seasoning_taste,
+    #menu_introduction .menu_img .menu_img_inner .original_seasoning_taste {
+        width: 329px;
+        height: 422px;
+        object-fit: contain;
+        margin: auto;
+}
+
+    #menu_introduction .menu_img .menu_img_inner .spicy_seasoning {
+        width: 329px;
+        height: 422px;
+        object-fit: contain;
+        margin: auto;
+    }
+}

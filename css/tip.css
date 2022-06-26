@@ -1,0 +1,71 @@
+
+/* tip */
+#tip .tip_inner {
+    width: 100%;
+    margin: auto;
+    margin-top: 196px;
+}
+
+#tip .tip_inner .tip_background_color {
+    background-color: #006CBA;
+    background-size: cover;
+    height: 474px;
+    width: 100%;
+}
+
+#tip .tip_inner .tip_background_color .tip_grid{
+    display: grid;
+    margin: auto;
+
+    grid-template-columns: 710px auto;
+    width: 1600px;
+}
+
+
+
+.tip_text .tip_text_title {
+    padding: 172px 0 32px 101px;
+    font-size: 41px;
+    line-height: 1.39;
+    letter-spacing: -2.05px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.tip_text .tip_text_body {
+    padding: 0 0 114px 101px;
+    opacity: 0.8;
+    font-family: SpoqaHanSans;
+    font-size: 17px;
+    line-height: 1.47;
+    letter-spacing: -0.85px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.tip_text .tip_img {
+    position: absolute;
+
+    width: 192.6px;
+    height: 210.3px;
+    padding: 0 0 49.6px 39px;
+    margin-top: -567.2px;
+}
+
+.tip_imgs {
+    background-image: url(../img/tip/tip_right/tip_right.png);
+    background-repeat: no-repeat;
+    background-position: 305px 0;
+}
+
+.tip_text {
+    background-image: url(../img/tip/tip_left/tip_left.png);
+    background-repeat: no-repeat;
+    background-position: -26px 5px;
+}
+
+.tip_imgs .tip_img_body {
+    width: 750px;
+    height: 249px;
+    padding: 110.5px 66px 112px 0;
+}

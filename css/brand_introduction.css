@@ -1,0 +1,90 @@
+
+/* 브랜드소개 */
+#brand_introduction .background_image {
+    width: 100%;
+    height: 913px;
+    background: url(../img/brand_introduction/brand_introduction.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#brand_introduction .background_image .background_opacity {
+    width: 100%;
+    height: 913px;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+
+.background_opacity .brand_introduction_title {
+    padding-top: 169px;
+    font-family: Cafe24Ohsquare;
+    font-size: 48px;
+    line-height: 1.17;
+    text-align: center;
+    color: #ffffff;
+}
+
+.background_opacity .brand_story_title,
+.background_opacity .ice_cold_chicken_title {
+    padding-top: 84px;
+    font-family: Merriweather;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.26;
+    letter-spacing: -0.58px;
+    text-align: center;
+    color: #006cba;
+    
+}
+
+.background_opacity .brand_story_body,
+.background_opacity .ice_cold_chicken_body {
+    padding-top: 14px;
+    opacity: 1;
+    font-family: SpoqaHanSans;
+    font-size: 17px;
+    line-height: 1.76;
+    letter-spacing: -0.85px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.background_opacity .brand_story_title .point_left {
+    display: inline-block;
+    margin: 9px 10px 10px 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #006cba;
+}
+
+
+.background_opacity .brand_story_title .point_right {
+    display: inline-block;
+    margin: 9px 0 10px 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #006cba;
+}
+
+
+.background_opacity .ice_cold_chicken_title .point_left {
+    display: inline-block;
+    margin: 9px 11px 10px 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #006cba;
+}
+
+.background_opacity .ice_cold_chicken_title .point_right {
+    display: inline-block;
+    margin: 9px 0 10px 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #006cba;
+}

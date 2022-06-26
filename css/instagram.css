@@ -1,0 +1,57 @@
+
+
+/* 인스타그램 */
+
+.marketing {
+    width: 100%;
+    margin: auto;
+}
+
+.marketing .marketing_inner {
+    width: 1400px;
+    margin: auto;
+}
+
+.marketing .marketing_inner .instagram_big_logo_img {
+    width: 236px;
+    height: 132px;
+
+    padding: 40px 10px;
+    margin: 200px 0 107px 570px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#instagram .marketing .marketing_inner .instagram_big_logo_text  {
+    font-family: SpoqaHanSans;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #2363f0;
+    /* text-align: center; */
+
+}
+
+#instagram .marketing .instagram_marketing_img {
+    width: 100%;
+    margin: auto;
+}
+
+/* @media screen and (min-width: 769px) {
+    #instagram .marketing .instagram_marketing_img {
+        width: 1920px;
+        margin: auto;
+    }
+} */
+
+#instagram .marketing .instagram_marketing_img .instagram_marketing_img_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#instagram .marketing .instagram_marketing_img div img{
+    max-width: 320px;
+    height: 314px;
+
+}
