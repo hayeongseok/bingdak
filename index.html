@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=1920">
+
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/menu_bar.css" rel="stylesheet">
+  <link href="./css/carousel.css" rel="stylesheet">
+  <link href="./css/menu_introduction.css" rel="stylesheet">
+  <link href="./css/tip.css" rel="stylesheet">
+  <link href="./css/brand_introduction.css" rel="stylesheet">
+  <link href="./css/start_inquiry.css" rel="stylesheet">
+  <link href="./css/store_guide.css" rel="stylesheet">
+  <link href="./css/instagram.css" rel="stylesheet">
+  <link href="./css/footer.css" rel="stylesheet">
+  <link href="./css/top_btn.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="img/favicon/favicon.png">
+  <title>빙닭</title>
+
+</head>
+
+<body>
+  <header>
+    <!-- 메뉴 test-->
+    <nav id="nav">
+      <div class="nav_inner">
+        <div class="logo">
+          <img src="./img/logo/logo_main/logo_main.png" onclick="location.href='http://bingdak.co.kr/'">
+        </div>
+        <div class="menu">
+          <div class="menu_inner">
+            <div class="menu_text">
+              <div data-scroll="menu_introduction" href="#menu_introduction" class="dot active">메뉴소개</div>
+              <div data-scroll="brand_introduction" href="#brand_introduction" class="dot">브랜드소개</div>
+              <div data-scroll="start_inquiry" href="#start_inquiry" class="dot">창업문의</div>
+              <div data-scroll="store_guide" href="#store_guide" class="dot">매장안내</div>
+              <div data-scroll="" href="" class="dot">고객센터</div>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <div class="social_inner">
+            <div class="counseling" onclick="location.href='mailto:ozawa@oneallnp.com'"> 빙닭 가맹점 상담</div>
+            <div class="instagram" onclick="window.open('https://www.instagram.com/bingdak_official/')">
+              <img class="instagram_small_logo" src="./img/nav/btn_instagram/btn_instagram.png" alt="instagram">
+            </div>
+            <div class="facebook" onclick="window.open('')">
+              <img class="facebook_small_logo" src="./img/nav/btn_facebook/btn_facebook.png" alt="fackbook">
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <img id="top_btn_img" src="img/top_btn/top_btn.png" href="#">
+
+
+  <main>
+    <!-- 캐러셀 슬라이드 -->
+    <section id="carousel" class="section">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators  -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- 이미지  -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="./img/banner/banner_1.png" alt="banner_1">
+          </div>
+          <div class="item">
+            <img src="./img/banner/banner_2.png" alt="banner_2">
+          </div>
+          <div class="item">
+            <img src="./img/banner/banner_3.png" alt="banner_3">
+          </div>
+        </div>
+        <!-- 버튼  -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 메뉴소개 -->
+    <section id="menu_introduction" class="section">
+      <div class="bingdak_text">
+        <p class="bingdak_title">Menu</p>
+        <p calss="bingdak_head">#BINGDAK CHICKEN</p>
+        <p class="bingdak_subhead"><strong>얼려서 먹는 치킨 빙닭</strong> 메뉴입니다.</p>
+        <p class="bingdak_body">*본 이미지는 연출된 사진으로 실제와 다를 수 있습니다.</p>
+      </div>
+      <div class="bingdak_img">
+        <div class="bingdak_img_inner">
+          <img class="salty_soy_sauce_flavor" src="./img/menu_introduction/salty_soy_sauce_flavor/salty_soy_sauce_flavor.png">
+          <img class="corn_seasoning_taste" src="./img/menu_introduction/corn_seasoning_taste/corn_seasoning_taste.png">
+          <img class="original_flavor" src="img/menu_introduction/original_flavor/original_flavor.png">
+          <img class="spicy_flavor" src="img/menu_introduction/spicy_flavor/spicy_flavor.png">
+        </div>
+      </div>
+      <div class="lollipop_text">
+        <p calss="lollipop_head">#LOLLIPOP</p>
+        <p class="lollipop_subhead"><strong>튀긴 롤리팝 치킨, 구운 드럼스틱 치킨</strong> 메뉴입니다.</p>
+        <p class="lollipop_body">*본 이미지는 연출된 사진으로 실제와 다를 수 있습니다.</p>
+      </div>
+      <div class="lollipop_img">
+        <div class="lollipop_img_inner">
+          <img class="drumstick" src="img/menu_introduction/drumstick/drumstick.png">
+          <img class="lollipop" src="img/menu_introduction/lollipop/lollipop.png">
+        </div>
+      </div>
+    </section>
+
+    <!-- tip -->
+    <section id="tip" class="section">
+      <div class="tip_inner">
+        <div class="tip_background_color">
+          <div class="tip_grid">
+            <div class="tip_text">
+              <div class="tip_text_title">
+                언제 어디서든<br>
+                쉽고 간편하게 먹는 치킨
+              </div>
+              <div class="tip_text_body">
+                빙닭은 급속냉동 상태로 배송되어<br>
+                쉽고 간편하게 즐길 수 있습니다.
+              </div>
+              <img class="tip_img" src="./img/tip/tip_img/tip_img@3x.png">
+            </div>
+            <div class="tip_imgs">
+              <img class="tip_img_body" src="./img/tip/tip_img_body/tip_img_body.png">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 브랜드소개 -->
+    <section id="brand_introduction" class="section">
+      <div class="background_image">
+        <div class="background_opacity">
+          <div class="brand_introduction_title">브랜드소개</div>
+          <div class="brand_story_title">
+            <div class="point_left"></div>
+            BRAND STORY
+            <div class="point_right"></div>
+          </div>
+          <div class="brand_story_body">
+            치킨이 너무 좋아 <strong>치킨을 가볍게, 원할때 바로 먹을 수 있는 안주</strong>로 만들겠다는<br>
+            목표로 지금의 빙닭 치킨이 탄생하였습니다.<br><br>
+            <strong>검증된 품질의 닭날개</strong> 부위를 사용하고 수년간의 고민으로 만들어진 <strong>비법 소스</strong>를<br>
+            버무려 급속 냉동 시킨 빙닭 치킨은 <strong>보관기간을 상승 시키면서도<br>
+              그 맛이 변하지 않는 중독성 있는 치킨</strong>이 되었습니다.
+          </div>
+          <div class="ice_cold_chicken_title">
+            <div class="point_left"></div>
+            ICE COLD CHICKEN
+            <div class="point_right"></div>
+          </div>
+          <div class="ice_cold_chicken_body">
+            빙닭은 영하 -에서 급속냉동으로 만들어진 <strong>차갑게 먹는 치킨</strong>입니다.<br>
+            특별한 조리 없이 상온에서 10분~25분만 해동시켜 먹을 수 있어 편리하고<br>
+            <strong>언제 어디서든 쉽고 간편하게</strong> 즐길 수 있습니다.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 창업문의 -->
+    <section id="start_inquiry" class="section">
+      <div class="start_inquiry_inner">
+        <div class="start_inquiry_text">
+          <p class="start_inquiry_title">
+            창업문의
+          </p>
+          <p class="start_inquiry_body">
+            빙닭은 냉동 제품으로 만들어 보관과 재고에 대한 걱정이 없고<br>
+            제품 패키지 특성상 제품 손상에 걱정이 없어 배달이 용이합니다.<br>
+            또한, 일반 프랜차이즈들과는 달리 매장이 필요없어<br>
+            <strong>소자본으로도 누구나 창업</strong>이 가능합니다.<br><br>
+
+            오랜시간 동안 겪은 시행착오 끝에 발견한 빙닭만의 사업 노하우를<br>
+            창업 점주님들께 모두 공개해드리고 1:1케어 해드리겠습니다.<br>
+          </p>
+          <div class="contact_us" onclick="location.href='mailto:ozawa@oneallnp.com'">
+            문의하기
+          </div>
+        </div>
+        <div class="start_inquiry_img">
+          <img class="start_inquiry_img_text" src="./img/start_inquiry_img_text/start_inquiry_img_text.png">
+        </div>
+      </div>
+    </section>
+
+    <!-- 매장문의 -->
+    <section id="store_guide" class="section">
+      <div class="store_guide_inner">
+        <div class="store_guide_img">
+          <img src="./img/store_guide/store_guide.png">
+        </div>
+        <div class="store_map">
+          <div class="store_map_text">
+            <h1 class="store_map_title">
+              매장안내
+            </h1>
+            <p class="store_map_subhead">
+              세상에 없던 치킨 '빙닭' 매장을 소개합니다.
+            </p>
+          </div>
+          <div class="busan_head_office">
+            <p class="store_title">부산본점</p>
+            <p class="store_address"><strong>주소</strong> 부산광역시 남구 대연동 50-19</p>
+            <p class="store_phone"><strong>전화</strong> 051-888-1020</p>
+            <div class="view_store_map"
+              onclick="window.open('https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%82%A8%EA%B5%AC%20%EB%8C%80%EC%97%B0%EB%8F%99%2050-19/address/14371642.126354214,4182367.0687072594,%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%82%A8%EA%B5%AC%20%EB%8C%80%EC%97%B0%EB%8F%99%2050-19,jibun?c=14372034.0248061,4185089.7272985,12,0,0,0,dh')">
+              지도 보기
+            </div>
+          </div>
+          <div class="changwon_branch_office">
+            <p class="store_title">창원점</p>
+            <p class="store_address"><strong>주소</strong> 경상남도 창원시 신월로 42</p>
+            <p class="store_phone"><strong>전화</strong> 055-825-3701</p>
+            <div class="view_store_map"
+              onclick="window.open('https://map.naver.com/v5/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%8B%A0%EC%9B%94%EB%A1%9C%2042%20%EB%B9%99%EB%8B%AD/place/1195898759?c=14325876.5100968,4194936.6677509,18,0,0,0,dh')">
+              지도 보기
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 인스타그램 -->
+    <section id="instagram" class="section">
+      <div class="marketing">
+        <div class="marketing_inner">
+          <div class="instagram_big_logo_img" onclick="window.open('https://www.instagram.com/bingdak_official/')">
+            <img src="./img/instagram/instagram.png">
+            <div class="instagram_big_logo_text">@bingdak</div>
+          </div>
+        </div>
+        <div class="instagram_marketing_img">
+          <div class="instagram_marketing_img_inner">
+            <div class="" onclick="window.open('https://www.instagram.com/bingdak_official/')"><img
+                src="./img/instagram/instagram_img_1/instagram_img_1.png"></div>
+            <div class="" onclick="window.open('https://www.instagram.com/bingdak_official/')"><img
+                src="./img/instagram/instagram_img_2/instagram_img_2.jpg"></div>
+            <div class="" onclick="window.open('https://www.instagram.com/bingdak_official/')"><img
+                src="./img/instagram/instagram_img_3/instagram_img_3.jpg"></div>
+            <div class="" onclick="window.open('https://www.instagram.com/bingdak_official/')"><img
+                src="./img/instagram/instagram_img_4/instagram_img_4.jpg"></div>
+            <div class="" onclick="window.open('https://www.instagram.com/bingdak_official/')"><img
+                src="./img/instagram/instagram_img_5/instagram_img_5.jpg"></div>
+            <div class="" onclick="window.open('https://www.instagram.com/bingdak_official/')"><img
+                src="./img/instagram/instagram_img_6/instagram_img_6.jpg"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer_inner">
+      <div class="character_logo">
+        <img src="./img/logo/logo_footer/logo_footer.png">
+      </div>
+      <div class="foot_info">
+        서울시 도곡동 449-2, 빙닭가맹본부 사업자등록번호 : 000-00-00000 빙닭 대표 : 000<br>
+        가맹문의 : 1588-0000 마케팅/광고문의 : 070-0000-2735 B2B/제품관련 : 070-0000-0000 이메일 : 00
+      </div>
+      <div class="foot_copy">
+        Copyright by 2021 빙닭. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="./js/carousel.js"></script>
+  <script src="./js/scrollspy.js"></script>
+</body>
+
+</html>
